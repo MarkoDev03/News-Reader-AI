@@ -4,11 +4,11 @@ import {  Grow } from '@material-ui/core'
 
 const NewsCards = ({ articles }) => {
     return (
-        <Grow in>
+        <div>
             {articles.map((article, i) => (
                 <NewsCard article={article} />
             ))}
-        </Grow>
+        </div>
     )
 }
 
