@@ -1,6 +1,5 @@
 import React from 'react'
 import NewsCard from '../NewsCard/NewsCard'
-import {  Grow } from '@material-ui/core'
 
 const NewsCards = ({ articles }) => {
     return (
