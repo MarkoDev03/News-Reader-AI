@@ -11,9 +11,9 @@ const App = () => {
    useLayoutEffect(() => {
        alanBtn({
            key:alanAIkey,
-           onCommand: ({ command, country }) => {
+           onCommand: ({ command, articles }) => {
                if (command === "newHeadlines") {
-                   setNewsArticles(country)
+                   setNewsArticles(articles)
                }
            }
        })
